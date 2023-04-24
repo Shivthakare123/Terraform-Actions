@@ -16,7 +16,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
- 
+
 
     steps:
 
@@ -39,7 +39,7 @@ jobs:
           service_account: terraform-practice@terraform-test-384414.iam.gserviceaccount.com
 
 
- 
+
 
       - name: "Set up Cloud SDK"
 
@@ -47,7 +47,7 @@ jobs:
 
 
 
-      - name: Terraform init    
+      - name: Terraform init 
 
         run: terraform init
 
@@ -56,7 +56,7 @@ jobs:
         run: terraform plan
 
         working-directory: ../Terraform-Actions
- 
+
       - name: Terraform apply
 
         run: terraform apply -auto-approve
