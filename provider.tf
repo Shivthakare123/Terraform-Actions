@@ -11,5 +11,5 @@ provider "google" {
 project = "terraform-test-384414"
 region = "us-central1"
 # Mention the path of the Json file which is download while creating service
-credentials = "C:\\terraform\\key\\terraform-test-384414-8ae5aeb96ebf.json"
+credentials = var.credentials
 }
