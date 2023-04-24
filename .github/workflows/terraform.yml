@@ -1,5 +1,5 @@
 name: GitHub Actions Workload Identity Demo
-on: [workflow_dispatch]
+on: [push]
 permissions:
     contents: "read"
     id-token: "write"
