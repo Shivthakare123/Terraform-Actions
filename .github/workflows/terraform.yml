@@ -13,7 +13,7 @@ jobs:
         name: "Authenticate to Google Cloud"
         uses: "google-github-actions/auth@v0"
         with:
-          workload_identity_provider: projects/596010007198/locations/global/workloadIdentityPools/github-pool1/providers/github-provider1
+          workload_identity_provider: /projects/129781850284/locations/global/workloadIdentityPools/git-hub1/providers/github-provider1
           service_account: terraform-practice@terraform-test-384414.iam.gserviceaccount.com
 
 
